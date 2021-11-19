@@ -5,5 +5,5 @@ The goal here is to get some idea how [nestjs](https://nestjs.com/) framework do
 - For linting, typescript, and prettier, I simply copied over basic config files from a nestjs project. 
 
 Issues so far:
-- How to handle async dependencies?
-- How to create decorators to make controllers easier to write (similar to nestjs).
+- [ ] How to handle async dependencies?
+- [x] How to create decorators to make controllers easier to write (similar to nestjs).

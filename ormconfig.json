@@ -7,6 +7,6 @@
   "password": "playnest",
   "database": "playnest",
   "entities": ["src/**/*.entity.{ts,js}"],
-  "synchronize": true,
+  "synchronize": false,
   "logging": true
 }

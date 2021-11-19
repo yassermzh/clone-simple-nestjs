@@ -9,11 +9,11 @@ export class ArticleService {
   @InjectRepository(Article)
   private articleRepo: Repository<Article>;
 
-  async getAllArticles(): Promise<Article[]> {
-    return await this.articleRepo.find();
+  getAllArticles(): Promise<Article[]> {
+    return this.articleRepo.find();
   }
 
-  async create(createArticleDto: CreateArticleDto) {
+  create(createArticleDto: CreateArticleDto) {
     const article = this.articleRepo.create(createArticleDto);
     return this.articleRepo.save(article);
   }
